@@ -17,31 +17,31 @@ export class KeyboardShortcutsConfiguration {
 
     makeCombination() {
         this.buttonsArray = [
-            // Navigation Page - ctrl + n
+            // Navigation Page - alt + n
             {
                 title: 'Navigation Page',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'n',
                 route: 'navigation'
             },
-            // Run Report - ctrl + t
+            // Run Report - alt + t
             {
                 title: 'Run Report',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 't',
                 route: '',
                 id: 'runReport'
             },
-            // Checker Inbox & Pending Tasks - ctrl + i
+            // Checker Inbox & Pending Tasks - alt + i
             {
               title: 'Checker Inbox & Pending Tasks',
-              ctrlKey: true,
+              ctrlKey: false,
               shiftKey: false,
-              altKey: false,
+              altKey: true,
               key: 'i',
               route: 'checker-inbox-and-tasks/checker-inbox'
             },
@@ -54,104 +54,104 @@ export class KeyboardShortcutsConfiguration {
             // key: 'o',
             // route: ''
             // },
-            // Create Client - ctrl + c
+            // Create Client - alt + c
             {
                 title: 'Create Client',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'c',
                 route: 'clients/create'
             },
-            // Create Group - ctrl + g
+            // Create Group - alt + g
             {
                 title: 'Create Group',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'g',
                 route: 'groups/create'
             },
-            // Create Center - ctrl + q
+            // Create Center - alt + q
             {
                 title: 'Create Center',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'q',
                 route: 'centers/create'
             },
-            // Frequent Posting - ctrl + f
+            // Frequent Posting - alt + f
             {
                 title: 'Frequent Posting',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'f',
                 route: 'accounting/journal-entries/frequent-postings'
             },
-            // Closure Entries - ctrl + e
+            // Closure Entries - alt + e
             {
                 title: 'Closure Entries',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'e',
                 route: 'accounting/closing-entries'
             },
-            // Journal Entry - ctrl + j
+            // Journal Entry - alt + j
             {
                 title: 'Journal Entry',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'j',
                 route: 'accounting/journal-entries/create'
             },
-            // Reports - ctrl + r
+            // Reports - alt + r
             {
                 title: 'Reports',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'r',
                 route: 'reports'
             },
-            // Accounting - ctrl + a
+            // Accounting - alt + a
             {
                 title: 'Accounting',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'a',
                 route: 'accounting'
             },
-            // Save/Submit Forms - ctrl + s
+            // Save/Submit Forms - alt + s
             {
                 title: 'Save/Submit Forms',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 's',
                 route: '',
                 id: 'submit'
             },
-            // Cancel - ctrl + x
+            // Cancel - alt + x
             {
                 title: 'Cancel',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'x',
                 route: '',
                 id: 'cancel'
             },
-            // Help - ctrl + h
+            // Help - alt + h
             {
                 title: 'Help',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'h',
                 route: '',
                 id: 'help'
@@ -174,12 +174,12 @@ export class KeyboardShortcutsConfiguration {
             //     key: 'p,
             //     route: ''
             // },
-            // Logout - ctrl + l
+            // Logout - alt + l
             {
                 title: 'Logout',
-                ctrlKey: true,
+                ctrlKey: false,
                 shiftKey: false,
-                altKey: false,
+                altKey: true,
                 key: 'l',
                 route: '',
                 id: 'logout'
